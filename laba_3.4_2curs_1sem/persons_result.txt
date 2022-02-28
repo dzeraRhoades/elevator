@@ -1,0 +1,80 @@
+[00:00][INFORMATION]: person id: 3
+	appearance time: 7:0
+	source floor: 2
+	target floor: 6
+	entering lift time: 25206
+	moving time: 24
+	left the lift because overload: no
+	persons met: 8 
+[00:00][INFORMATION]: person id: 8
+	appearance time: 7:0
+	source floor: 2
+	target floor: 6
+	entering lift time: 25206
+	moving time: 24
+	left the lift because overload: no
+	persons met: 3 
+[00:00][INFORMATION]: person id: 2
+	appearance time: 7:0
+	source floor: 9
+	target floor: 0
+	entering lift time: 25239
+	moving time: 54
+	left the lift because overload: no
+	persons met: 7 
+[00:00][INFORMATION]: person id: 7
+	appearance time: 7:0
+	source floor: 9
+	target floor: 0
+	entering lift time: 25239
+	moving time: 54
+	left the lift because overload: no
+	persons met: 2 
+[00:00][INFORMATION]: person id: 4
+	appearance time: 8:0
+	source floor: 7
+	target floor: 1
+	entering lift time: 28821
+	moving time: 42
+	left the lift because overload: no
+	persons met: 9 
+[00:00][INFORMATION]: person id: 9
+	appearance time: 8:0
+	source floor: 7
+	target floor: 1
+	entering lift time: 28821
+	moving time: 42
+	left the lift because overload: no
+	persons met: 4 
+[00:00][INFORMATION]: person id: 6
+	appearance time: 13:0
+	source floor: 0
+	target floor: 10
+	entering lift time: 46800
+	moving time: 70
+	left the lift because overload: no
+	persons met: 1 
+[00:00][INFORMATION]: person id: 1
+	appearance time: 13:0
+	source floor: 0
+	target floor: 10
+	entering lift time: 46800
+	moving time: 70
+	left the lift because overload: no
+	persons met: 6 
+[00:00][INFORMATION]: person id: 5
+	appearance time: 21:0
+	source floor: 0
+	target floor: 2
+	entering lift time: 75600
+	moving time: 16
+	left the lift because overload: no
+	persons met: 10 
+[00:00][INFORMATION]: person id: 10
+	appearance time: 21:0
+	source floor: 0
+	target floor: 2
+	entering lift time: 75600
+	moving time: 16
+	left the lift because overload: no
+	persons met: 5 

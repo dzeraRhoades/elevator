@@ -1,0 +1,7 @@
+
+[00:00][INFORMATION]: lift nomber: 1, staying time : 86244, moving time: 156, completed floors: 31, summary passed weight: 430, max load: 160, times of overloads: 0
+[00:00][INFORMATION]: lift nomber: 2, staying time : 86330, moving time: 70, completed floors: 11, summary passed weight: 120, max load: 120, times of overloads: 0
+[00:00][INFORMATION]: lift nomber: 3, staying time : 86384, moving time: 16, completed floors: 3, summary passed weight: 140, max load: 140, times of overloads: 0
+[00:00][INFORMATION]: lift nomber: 1, staying time : 86244, moving time: 156, completed floors: 31, summary passed weight: 430, max load: 160, times of overloads: 0
+[00:00][INFORMATION]: lift nomber: 2, staying time : 86330, moving time: 70, completed floors: 11, summary passed weight: 120, max load: 120, times of overloads: 0
+[00:00][INFORMATION]: lift nomber: 3, staying time : 86384, moving time: 16, completed floors: 3, summary passed weight: 140, max load: 140, times of overloads: 0
