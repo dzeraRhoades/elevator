@@ -6,9 +6,9 @@
 #include<string>
 #include<map>
 #include<forward_list>
-#include"BinaryHeap.h"
-#include"BinomialHeap.h"
-#include"FibonacciHeap.h"
+#include"containers/BinaryHeap.h"
+#include"containers/BinomialHeap.h"
+#include"containers/FibonacciHeap.h"
 #include"logBuilder.h"
 #include"Logger.h"
 

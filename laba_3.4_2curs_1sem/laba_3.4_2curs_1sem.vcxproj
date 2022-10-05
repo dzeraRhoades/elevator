@@ -29,26 +29,26 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -88,6 +88,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,9 +140,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BinaryHeap.cpp" />
-    <ClCompile Include="BinomialHeap.cpp" />
-    <ClCompile Include="Heap.cpp" />
+    <ClCompile Include="containers\BinaryHeap.cpp" />
+    <ClCompile Include="containers\BinomialHeap.cpp" />
+    <ClCompile Include="containers\Cmp.cpp" />
+    <ClCompile Include="containers\FibonacciHeap.cpp" />
+    <ClCompile Include="containers\Heap.cpp" />
+    <ClCompile Include="containers\HeapException.cpp" />
     <ClCompile Include="LiftSysControle.cpp" />
     <ClCompile Include="logBuilder.cpp" />
     <ClCompile Include="Logger.cpp" />
@@ -149,9 +153,12 @@
     <ClCompile Include="Stream.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BinaryHeap.h" />
-    <ClInclude Include="BinomialHeap.h" />
-    <ClInclude Include="Heap.h" />
+    <ClInclude Include="containers\BinaryHeap.h" />
+    <ClInclude Include="containers\BinomialHeap.h" />
+    <ClInclude Include="containers\Cmp.h" />
+    <ClInclude Include="containers\FibonacciHeap.h" />
+    <ClInclude Include="containers\Heap.h" />
+    <ClInclude Include="containers\HeapException.h" />
     <ClInclude Include="LiftSysControle.h" />
     <ClInclude Include="Stream.h" />
   </ItemGroup>

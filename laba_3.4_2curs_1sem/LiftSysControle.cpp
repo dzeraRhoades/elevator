@@ -1,4 +1,5 @@
 #include "LiftSysControle.h"
+#include<filesystem>
 
 int LiftSysControle::cur_time = 0;
 std::queue<int> LiftSysControle::unprocessed_buttons;
@@ -31,6 +32,7 @@ void LiftSysControle::start()
 
 void LiftSysControle::init(const std::string& build_conf_file, const std::string& people_conf_file)
 {
+	std::filesystem::create_directory("results");
 	people = new BinomialHeap<int, Person*>(&cmp);
 	init_building(build_conf_file);
 	init_people(people_conf_file);
@@ -168,8 +170,10 @@ LiftSysControle::Person::Person(int app_time, int tf, int sf, int weight, int pe
 	this->weight = weight;
 	this->person_id = person_id;
 
+
+	
 	logBuilder bld;
-	logger = bld.buildLog("persons_result.txt");
+	logger = bld.buildLog("results/persons_result.txt");
 }
 
 void LiftSysControle::Person::enter_the_lift(int time_seconds)
@@ -237,7 +241,7 @@ void LiftSysControle::Person::log_all_info()
 LiftSysControle::Lift::Lift(int M, int floors_num)
 {
 	logBuilder lb;
-	logger = lb.buildLog("lifts_work_result.txt");
+	logger = lb.buildLog("results/lifts_work_result.txt");
 	target_floors_heap = new BinaryHeap<int, int>(&cmp);
 	max_weight = M;
 	for (int i = 0; i < floors_num; i++)
